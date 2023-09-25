@@ -1,11 +1,16 @@
 @media screen and (max-width: 1024px){
+   
     .hero__h1 {
         padding-top: 80px;
         font-size: 50px;
     }
     .hero__content {
         font-size: 18px;
-        padding-bottom: 150px;
+        padding-bottom: 50px;
+    }
+    .button_parent{
+        padding-top: 15px;
+        margin-bottom: 50px;
     }
     .content__section {
         margin: 70px 0;
@@ -62,22 +67,50 @@
     .strategy-parent{
         justify-content: center;
         flex-wrap: wrap;
+        gap: 35px;
+
     }
+    /* .line{
+        display: none;
+    } */
 
 }
 
 
 @media screen and (max-width: 768px){
+    .hero__section{
+        background-image: unset;
+        background: #F8FBFB;
+
+    }
     .hero__h1 {
         padding-top: 70px;
         font-size: 40px;
     }
     .hero__content {
         font-size: 16px;
-        padding-bottom: 130px;
+        padding-bottom: 50px;
     }
     .navbar-toggler{
-        background-color: #fff;
+        background: var(--Linear, linear-gradient(90deg, #B16DEA 0%, #FB5E71 51.72%, #FDA24E 100%));
+        border: none;
+        color: #fff!important;
+
+    }
+    .button_parent {
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .custom , .custom-2{
+        white-space: nowrap;
+        width: 25%;
+    }
+   
+    
+    .btn-success{
+        background: var(--Linear, linear-gradient(90deg, #B16DEA 0%, #FB5E71 51.72%, #FDA24E 100%));
+        color: #fff;
+
     }
     .name_h2 {
         font-size: 40px;
@@ -117,14 +150,14 @@
 
 @media screen and (max-width: 425px){
     .hero__h1 {
-        padding-top: 50px;
+        padding-top: 39px;
         font-size: 38px;
         text-align: left;
 
     }
     .hero__content {
         font-size: 14px;
-        padding-bottom: 100px;
+        padding-bottom: 25px;
         text-align: left;
     }
     .name_h2 {
@@ -151,6 +184,14 @@
     .expertise {
         margin-top: 40px;
     }
+    .button_parent {
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+    .custom , .custom-2 {      
+          padding: 15px 26px;
+          width: 50%;
+    }
     .touch {
         margin: 40px 0;
         padding: 15px 34px;
@@ -173,6 +214,37 @@
     }
     .work__section {
         padding: 45px 0;
+    }
+    .strategy_h2{
+        font-size: 35px;
+        margin: 50px 0 30px 0;
+
+    }
+    .process{
+        border-radius: 13px;
+        border: 1px solid #E5E5E5;
+        background: #FFF;
+        padding: 36px 63px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        margin-left: 80px;
+    }
+    .process-text{
+        padding-top: 0;
+    }
+    .serial{
+        top: 26%;
+        left: 3%;
+        
+    }
+    .line{
+        position: absolute;
+        top: 100%;
+        left: -114px;
+        z-index: 2;
+        transform: rotate(270deg);
     }
     .footer__section {
         padding: 50px 0 23px 0;
@@ -207,6 +279,9 @@
     }
     .card-title {
         font-size: 16px;
+    }
+    .strategy_h2{
+        font-size: 30px;
     }
     .footer_logo {
         font-size: 25px;
