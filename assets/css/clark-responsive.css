@@ -1,0 +1,94 @@
+@media screen and (max-width: 1024px){
+  
+}
+
+
+@media screen and (max-width: 768px){
+    .clark_h2{
+        font-size: 40px;
+    }
+    .sub-text {
+        font-size: 20px;
+    }
+    .clark_content {
+        font-size: 16px;
+    }
+    .custom, .custom-2 {
+        padding: 15px 70px;
+    }
+    .button_parent {
+        margin-bottom: 130px;
+    }
+  
+}
+
+@media screen and (max-width: 425px){
+
+    .top-menu a {
+        font-size: 18px;
+    }
+    .clark_h2 {
+        font-size: 38px;
+    }
+    .sub-text {
+        font-size: 18px;
+    }
+    .clark_content {
+        font-size: 14px;
+        
+    }
+    .button_parent {
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+    .custom, .custom-2 {
+        padding: 10px 50px;
+        width: 90%;
+    }
+   
+    .footer__section {
+        padding: 50px 0 23px 0;
+    }
+    .footer-menu{
+        padding: 25px 45px 38px 45px;
+
+    }
+    .footer-privacy{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 25px;
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .clark_h2 {
+        font-size: 35px;
+    }
+    .sub-text {
+        font-size: 14px;
+    }
+    .button_parent {
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+    .custom, .custom-2 {
+        padding: 10px 50px;
+        width: 90%;
+    }
+    .button_parent {
+        margin-bottom: 85px;
+    }
+   
+    .footer_logo {
+        font-size: 25px;
+    }
+    .footer-menu {
+        padding: 25px 45px 35px 45px;
+    }
+    .footer-privacy{
+        margin-top: 25px;
+
+    }
+
+}

@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+   
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5,h6,p{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+:root{
+    --white : #fff;
+}
+.container {
+    max-width: 1170px;
+} 
+
+
+/* General Styles End */
+
+
+
